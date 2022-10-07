@@ -1,0 +1,25 @@
+{
+    "status": 1,
+    "subscriptions": {
+        "first": [
+            {
+                "price": "1",
+                "productType": "AAAAA"
+            },
+            {
+                "price": "2",
+                "productType": "XXX"
+            }
+        ],
+        "seconds": [
+            {
+                "price": "3",
+                "productType": "YYYYY"
+            },
+            {
+                "price": "4",
+                "productType": "ZZZZZZ"
+            }
+        ]
+    }
+}
