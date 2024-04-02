@@ -1,16 +1,20 @@
 {
     "name": "mock-api-data-locally-with-node",
-    "version": "1.0.1",
+    "version": "1.0.2",
     "author": "Vladimir Rancic <vladimir.rancic@teliacompany.se>",
     "private": true,
     "description": "Get a full fake REST API with json-server and zero coding in less than 30 seconds",
+    "type": "module",
     "scripts": {
         "start": "node server.js",
         "dev": "nodemon server.js",
+        "dev:kill": "npx kill-port 2024 && nodemon server.js",
         "dev:8": "cross-env PORT=8080 nodemon server.js"
     },
     "main": "server.js",
     "dependencies": {
+        "body-parser": "^1.20.2",
+        "dotenv": "^16.4.5",
         "json-server": "^0.17.0"
     },
     "devDependencies": {
